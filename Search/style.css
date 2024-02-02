@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+}
+.bdy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#search{
+    width: 400px;
+    height: 25px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+#search:hover{
+    transform: scale(1.01);
+    color: black;
+}
+#btn:hover{
+    color: blueviolet;
+    height: 25px;
+}
+.cnt{
+    border: 1px dotted black;
+    border-radius: 9px;
+    width: 400px;
+    height: 400xp;
+    text-align: center;
+}
+
